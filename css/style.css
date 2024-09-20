@@ -23,7 +23,8 @@ header {
 }
 
 nav {
-    background-color: #004080;
+    /*background-color: #004080;*/
+    background-color: #FF9E00;
     padding: 0.5rem;
     position: sticky;
     top: 0;
@@ -49,6 +50,9 @@ nav ul li a {
     font-weight: bold;
 }
 
+nav ul li a:hover {
+    color: #004080;
+}
 .menu-icon {
     display: none;
     font-size: 1.8rem;
@@ -64,7 +68,7 @@ main {
 
 .cta-button {
     display: inline-block;
-    background-color: #ff6600;
+    background-color: #FF9E00;
     color: white;
     padding: 0.8rem 1.5rem;
     text-decoration: none;
@@ -75,7 +79,7 @@ main {
 }
 
 .cta-button:hover {
-    background-color: #e65c00;
+    background-color: #004080;
 }
 
 footer {
