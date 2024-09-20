@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    line-height: 1.4;
+    font-family: "Economica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    line-height: 0.8;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 22px;
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+nav {
+    background-color: #004080;
+    padding: 0.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+}       
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e65c00;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.logo {
+    margin-top: 15px;
+    width: 230px;
+    height: auto;
+}
+
+.countdown {
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.countdown-item {
+    display: inline-block;
+    background-color: #004080;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.2rem;
+    text-align: center;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+}
