@@ -64,6 +64,8 @@ main {
     max-width: 900px;
     margin: 0 auto;
     padding: 2rem;
+    border-left: 1px solid #e0e0de;
+    border-right: 1px solid #e0e0de;
 }
 
 .cta-button {
